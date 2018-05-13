@@ -18,3 +18,5 @@ permalink: /:year/:title:output_ext
 # #theme: jekyll-theme-cayman
 # plugins:
 #   - jekyll-feed
+
+theme: jekyll-theme-time-machine
