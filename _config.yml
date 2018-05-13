@@ -14,9 +14,7 @@ github_username:  mehmetaksahin
 # Build settings
 markdown: kramdown
 permalink: /:year/:title:output_ext
-# theme: minima
-# #theme: jekyll-theme-cayman
-# plugins:
-#   - jekyll-feed
-
-theme: jekyll-theme-time-machine
+theme: minima
+#theme: jekyll-theme-cayman
+plugins:
+   - jekyll-feed
