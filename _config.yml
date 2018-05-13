@@ -27,8 +27,7 @@ github_username:  mehmetaksahin
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-cayman
-#theme: jekyll-theme-cayman
+theme: default
 plugins:
   - jekyll-feed
 
