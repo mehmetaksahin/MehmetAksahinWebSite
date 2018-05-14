@@ -1,16 +1,16 @@
 hanuman:
-  username: hanuman
-  name: HANUMAN
-  location: Ayodhya
-  url_full: https://hanumanchalisa.net
-  url: hanumanchalisa.net
-  bio: Jai Shri Ram!
+  username: maksahin
+  name: Mehmet AKSAHIN
+  location: Istanbul
+  url_full: http://mehmetaksahin.com
+  url: www.mehmetaksahin.com
+  bio: Bir avare kodcu
   assets: assets/images/hanuman.png
 krishna:
-  username: krishna
-  name: KRISHNA
-  location: Vrindavan
-  url_full: https://shriradhakrishna.com
-  url: shriradhakrishna.com
-  bio: Radhe! Radhe!
+  username: memox
+  name: Memox WFALCON
+  location: Ankara
+  url_full: http://mehmetaksahin.com
+  url: www.mehmetaksahin.com
+  bio: Bir garip kodcu
   assets: assets/images/favicon.png

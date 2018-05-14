@@ -1,5 +1,11 @@
-- title: Home
+- title: Anasayfa
   url: 
 
-- title: About
+- title: Yazarlar
+  url: authors
+
+- title: Hakkimizda
   url: about
+
+- title: Tags
+  url: tags
