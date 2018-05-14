@@ -1,5 +1,5 @@
 # Site settings
-title: Mehmet AKSAHIN
+title: AKSAHIN
 description: Merhaba! Bu benim kisisel amacli kullandigim web sitemdir.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
@@ -14,7 +14,7 @@ twitter: memox_wfalcon
 github:  mehmetaksahin
 
 #Additional Pages
-about: aboutss
+about: about
 contact: contact
 privacy-policy: privacy-policy
 
@@ -35,16 +35,16 @@ plugins:
   - jekyll-paginate
 
 
-# Settings for rake task
-safe: False
-lsi: False
-username: samanyougarg #github username
-repo: hanuman #github repository
-branch: master #branch
-relative_source: ../hanuman/ #source directory
-destination: ../hanuman-pages/ #destination directory
-production_url:  https://samanyougarg.com/
-source_url:  https://github.com/samanyougarg/hanuman #source repository url
+## Settings for rake task
+#safe: False
+#lsi: False
+#username: samanyougarg #github username
+#repo: hanuman #github repository
+#branch: master #branch
+#relative_source: ../hanuman/ #source directory
+#destination: ../hanuman-pages/ #destination directory
+#production_url:  https://samanyougarg.com/
+#source_url:  https://github.com/samanyougarg/hanuman #source repository url
 
 exclude:
   - README.md
