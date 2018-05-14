@@ -1,20 +1,20 @@
 # Site settings
-title: Hanuman
-description: Hanuman is a minimal yet powerful Jekyll theme for your blogs and websites.
+title: Mehmet AKSAHIN
+description: Merhaba! Bu benim kisisel amacli kullandigim web sitemdir.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/hanuman/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://samanyougarg.com" # the base hostname & protocol for your site
-paginate:	5 # The number of posts to show per page on your homepage
+baseurl: "/StaticWebsite/" # the subpath of your site, e.g. /blog/ or / for root
+url: "https://mehmetaksahin.github.io/StaticWebsite/" # the base hostname & protocol for your site
+paginate:	3 # The number of posts to show per page on your homepage
 
 # Social
-facebook: facebook
-twitter: twitter
-github:  github
+facebook: memox.wfalcon
+twitter: memox_wfalcon
+github:  mehmetaksahin
 
 #Additional Pages
-about: about
+about: aboutss
 contact: contact
 privacy-policy: privacy-policy
 
