@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Hakkimda
+title: Hakkimizda
 permalink: /about/
 ---
 
