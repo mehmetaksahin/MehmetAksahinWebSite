@@ -4,8 +4,8 @@ description: Merhaba! Bu benim kisisel amacli kullandigim web sitemdir.
 cover: assets/images/radhakrishna.jpg
 logo: assets/images/logo.png
 favicon: assets/images/favicon.png
-baseurl: "/StaticWebsite/" # the subpath of your site, e.g. /blog/ or / for root
-url: "https://mehmetaksahin.github.io/" # the base hostname & protocol for your site
+baseurl: "/" # the subpath of your site, e.g. /blog/ or / for root
+url: "http://mehmetaksahin.com/" # the base hostname & protocol for your site
 paginate:	3 # The number of posts to show per page on your homepage
 
 # Social
