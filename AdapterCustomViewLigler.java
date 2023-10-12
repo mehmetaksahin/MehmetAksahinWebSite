@@ -31,29 +31,4 @@ public class AdapterCustomViewLigler extends ArrayAdapter<String> {
         this.ligTemelList = ligTemelList;
     }
 
-    @NonNull
-    @Override
-    public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-
-        LayoutInflater layoutInflater = context.getLayoutInflater();
-        View akisView = layoutInflater.inflate(R.layout.custom_view_ligler, null, true);
-
-        ImageView imageViewLogo = akisView.findViewById(R.id.imageViewCVLiglerLogo);
-        TextView textViewLigAd = akisView.findViewById(R.id.textViewCVLiglerLigAdi);
-        TextView textViewLigKisaAd = akisView.findViewById(R.id.textViewCVLiglerLigKisaAdi);
-        TextView textViewLigSezon = akisView.findViewById(R.id.textViewCVLiglerLigSezon);
-
-        LigTemel ligTemel = ligTemelList.get(position);
-        textViewLigAd.setText(ligTemel.getLig_ad());
-        textViewLigKisaAd.setText(ligTemel.getLig_kisa_ad() + " (" + ligTemel.getIl_ad() + ")");
-        String sezonAraligi = Referanslar.dateFormatddMMM.format(ligTemel.getBas_tarih().toDate()) + " - " + Referanslar.dateFormatddMMM.format(ligTemel.getBit_tarih().toDate());
-        textViewLigSezon.setText(sezonAraligi);
-        GlideApp.with(akisView)
-                .load(ligTemel.getLig_logo_url())
-                .fitCenter() //.centerCrop()
-                .placeholder(R.drawable.tenisturnuvasi_com_logo)
-                .into(imageViewLogo);
-
-        return akisView;
-    }
 }
