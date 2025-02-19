@@ -1,0 +1,16 @@
+<header>
+    {% comment %}
+
+    Navbar/header will come here
+
+    {% endcomment %}
+
+    <div class="header">
+        <a href="/" class="home glow green">mehmetaksahin.com</a>
+        <div class="header-right">
+            <a href="#" onclick="history.back()"><i data-feather="chevron-left"></i>back</a>
+            <a href="/blog" {% unless page.url == "/about/" %} class="active" {% endunless %}>blog</a>
+            <a href="/about" {% if page.url == "/about/" %} class="active" {% endif %}>about</a>
+        </div>
+    </div>
+</header>

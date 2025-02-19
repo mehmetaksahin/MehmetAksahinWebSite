@@ -1,19 +1,112 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-    <script type="text/javascript" src="https://github-profile.com/dist/gh-profile-card.min.js"></script>
-    <title>Mehmet AKŞAHİN</title>
-  </head>
-  <body>
-    <center>
-      <br/>
-      <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="tr_TR" data-type="vertical" data-theme="light" data-vanity="mehmetaksahin"><a class="LI-simple-link" href='https://tr.linkedin.com/in/mehmetaksahin?trk=profile-badge'>Mehmet Akşahin</a></div>
-      <br/> <br/>
-      <a href="mailto:iletisim@mehmetaksahin.com?Subject=Merhaba" target="_top">Send Mail</a> 
-      <br/> <br/>
-      <!-- <div id="github-card" data-username="mehmetaksahin" data-max-repos="1" data-sort-by="stars" data-header-text="GitHub"></div> -->
-      <br/> <br/>
-    </center>
-  </body>
-</html>
 
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>mehmetaksahin's website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="icon"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>☔</text></svg>"/>
+    <meta name="keywords" content="mehmetaksahin, mehmet aksahin">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="dacing on the rainy moonlight."/>
+    <meta name="theme-color" content="#f499a8">
+    <link rel='stylesheet' type='text/css' media='screen' href='./assets/css/theme.css'>
+    <script src='./assets/app.js'></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+<div class="header">
+    <p>BIOS SETUP UTILITY</p>
+</div>
+<nav>
+    <ul>
+        <li><a id="info" class="tab-title" href="#info" onclick="setTab(event, 'tab-info')">Information</a></li>
+        <li><a id="main" class="tab-title" href="#main" onclick="setTab(event, 'tab-main')">Main</a></li>
+        <li><a id="exit" class="tab-title" href="#exit" onclick="setTab(event, 'tab-exit')">Exit</a></li>
+    </ul>
+</nav>
+<br>
+<div id="tab-info" class="main-content">
+    <div class="border">
+        <p id="h1">mehmet aksahin</p>
+        <p>
+                <span class="disabled">
+                    A professional and versatile software developer with a knack for problem-solving. Software developer
+experienced in Web, Mobile, Desktop, IT , and complex systems with high-performance requirements.
+Experienced Web Developer is adept in all stages of advanced web development. Able to effectively self-
+manage during independent projects and collaborate in a team setting.
+                    <br>
+                    long live coding.
+                </span>
+        </p>
+        <p>
+            use arrow keys to navigate.
+        </p>
+        <p>
+                <span class="disabled">
+                    some useful tools
+                    <br>
+                    <a href="weather.exe.html">[weather.exe]</a>
+                    <a href="clock.avi.html">[clock.avi]</a>
+                </span>
+        </p>
+
+    </div>
+</div>
+<div id="tab-main" class="main-content">
+    <div class="border">
+        <p id="h1">who am i</p>
+        <ul>
+            <a href="https://www.linkedin.com/in/mehmetaksahin/">
+                <li>[linkedin]</li>
+            </a>
+            <a href="https://medium.com/@muh.mehmet.aksahin">
+                <li>[medium]</li>
+            </a>
+            <a href="mailto:contact@mehmetaksahin.com">
+                <li>[send email]</li>
+            </a>
+            <a href="/about" {% if page.url== "/about/" %} class="active" {% endif %}>
+            <li>[about]</li>
+            </a>
+        </ul>
+
+        <p id="h1">socials</p>
+        <p>
+            <a href="https://github.com/mehmetaksahin" class="no"><i data-feather="github"></i></a>
+            <a href="https://instagram.com/memoxwfalcon" class="no"><i data-feather="instagram"></i></a>
+            <a href="https://twitter.com/memox_wfalcon" class="no"> <i data-feather="twitter"></i></a>
+        </p>
+
+        <p id="h1">blog</p>
+        <p><a href="/blog">[access the blog]</a></p>
+    </div>
+</div>
+<div id="tab-exit" class="main-content">
+    <div class="border">
+        <p class="selected" onkeydown="exit(); return false;">Press [enter] to exit bios</p>
+    </div>
+</div>
+
+<footer id="footer">
+    <div id="cobaltWebring"></div>
+</footer>
+<!--<script type="text/javascript" src="https://instances.hyper.lol/assets/js/webring.js"></script>-->
+<script>feather.replace();
+</script>
+<script>
+    window.addEventListener("load", function (event) {
+        start();
+        setTab(event, "tab-info");
+        eid("info").classList.add("active");
+        // var removeRandom = document.querySelector('img[alt="Random"]')
+        //removeRandom.remove();
+    });
+</script>
+
+</body>
+
+</html>
